@@ -23,6 +23,20 @@ export const targetElements = [
     },
   },
   {
+    element: ".titleproject-cta",
+    animation: {
+      delay: 1000,
+      origin: window.innerWidth > 768 ? "left" : "bottom",
+    },
+  },
+  {
+    element: ".titleproject-title",
+    animation: {
+      delay: 500,
+      origin: window.innerWidth > 768 ? "left" : "bottom",
+    },
+  },
+  {
     element: ".hero-cta",
     animation: {
       delay: 1000,
@@ -43,6 +57,22 @@ export const targetElements = [
       origin: window.innerWidth > 768 ? "left" : "bottom",
     },
   },
+
+  {
+    element: ".projectwriteup-wrapper__image",
+    animation: {
+      delay: 600,
+      origin: "bottom",
+    },
+  },
+  {
+    element: ".projectwriteup-wrapper__info",
+    animation: {
+      delay: 1000,
+      origin: window.innerWidth > 768 ? "left" : "bottom",
+    },
+  },
+
   {
     element: ".project-wrapper__text",
     animation: {
