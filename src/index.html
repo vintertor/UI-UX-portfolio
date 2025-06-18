@@ -1,93 +1,485 @@
+
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Germany Travel Bureau – UX Portfolio</title>
-  <link href="style.css" rel="stylesheet" />
-</head>
-<body>
-  <header>
-    <nav>
-      <a href="#intro">About</a>
-      <a href="#process">Process</a>
-      <a href="#projects">Case Studies</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <h1>Germany Travel Bureau</h1>
-    <p>Your UX Designer — Crafting immersive travel experiences</p>
-  </header>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/personallogo.png" />
 
-  <section id="intro">
-    <h2>👋 Introduction</h2>
-    <p>Hello! I’m [Your Name], a UX designer passionate about designing user-centered travel platforms. Here's an overview of how I approach design, and the projects that showcase my process and impact.</p>
-  </section>
+    <title> Tor Kjäll | Portfolio</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="Tor Kjäll, UI/UX,, Product Design, portfolio" />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="Tor Kjäll | UX Product Designer" />
 
-  <section id="process">
-    <h2>🚀 My Design Process</h2>
-    <div class="steps">
-      <article>
-        <h3>1. Research</h3>
-        <p>User interviews, competitor analysis, and journey mapping to uncover real traveler needs.</p>
-      </article>
-      <article>
-        <h3>2. Ideation</h3>
-        <p>Sketches, wireframes, and low-fidelity prototypes to explore solutions quickly.</p>
-      </article>
-      <article>
-        <h3>3. Validation</h3>
-        <p>Usability testing and iterations based on real user feedback.</p>
-      </article>
-      <article>
-        <h3>4. Delivery</h3>
-        <p>High‑fidelity prototypes, design systems, and developer handoff documentation.</p>
-      </article>
-    </div>
-  </section>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+  </head>
 
-  <section id="projects">
-    <h2>📚 Case Studies</h2>
+  <body>
+    <div id="top"></div>
 
-    <article class="case-study">
-      <h3>Germany Travel Redesign</h3>
-      <p><strong>Challenge:</strong> Travelers found the original site confusing and outdated.</p>
-      <p><strong>My Role:</strong> UX Lead – research through delivery.</p>
-      <p><strong>Approach:</strong> Conducted interviews with 10 users, produced wireframes in Figma, iterated after usability testing.</p>
-      <p><strong>Outcome:</strong> Improved task completion rate by 25% and received positive qualitative feedback.</p>
-      <a href="projects/germany-travel.html">Read full case study →</a>
-    </article>
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hello! My name is <span class="text-color-main">Tor</span>
+          <br />
+          I'm a UX Product Designer.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Learn more</a
+          >
+        </p>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#projects"
+          >View Projects</a>
+          </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
 
-    <!-- Add more case studies similarly -->
-  </section>
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                loading="lazy"
+                src="assets/profile.jpg"
+                width="300px"/>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                I am a professional designer with an academic background that loves to solve 
+                complex challenges to make the company successful. 
+              </p>
+              <p class="about-wrapper__info-text">
+                To accomplish this, I am passionate about analyzing the information and 
+                designing the architecture to build out wireframes, design mockups and prototypes. 
+                I am a team player who thrives in a collaborative environment where ideas, concepts, challenges and possibilites are discussed back and fourth.
+                I value an experience that is accessible for all, that keeps up with creative trends, and that is easy to use. 
+              </p>
+              <p class="about-wrapper__info-text">
+                Skills: Figma - Information Architecture - Wireframing - Prototyping - Mockups - Usability Testing
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/ReeseFisherCV10.17.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
 
-  <section id="contact">
-    <h2>📬 Get in Touch</h2>
-    <p>Interested in working together? You can reach me at:</p>
-    <ul>
-      <li>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></li>
-      <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">yourprofile</a></li>
-      <li>Dribbble: <a href="https://dribbble.com/yourprofile" target="_blank">yourprofile</a></li>
-    </ul>
-    <p>Or fill out the form below:</p>
-    <form action="#" method="post">
-      <label>
-        Name<br />
-        <input type="text" name="name" required />
-      </label><br />
-      <label>
-        Email<br />
-        <input type="email" name="email" required />
-      </label><br />
-      <label>
-        Message<br />
-        <textarea name="message" rows="4" required></textarea>
-      </label><br />
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          
+          <!--UI/UX Project Section-->
+          <h2 class="section-title dark-blue-text">UI/UX Design Projects</h2>
 
-  <footer>
-    &copy; 2025 [Your Name]. Built with ❤️
-  </footer>
-</body>
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Monday.com</h3>
+                <div>
+                  <p class="mb-4">
+                    The goal of this project was to tell a story by solving 
+                    inconveniences the user experiences on <a href="https://monday.com">Monday.com</a>. 
+                    After completing research and reviewing interview transcripts, 
+                    I was able to identify pain points, create a persona, 
+                    and tell a story using a <b>journey map</b>, <b>user flow</b>, and <b>site maps</b>. 
+                    Overall, I recommended the necessary changes by utilizing 
+                    visual maps paired with research.
+                  </p>
+                </div>
+                <!--<a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="#!"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a>-->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <div
+                  data-tilt
+                  data-tilt-max="4"
+                  data-tilt-glare="true"
+                  data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt"
+                >
+                <a href="Monday.html">
+                  <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    loading="lazy"
+                    src="assets/TitlePage.png"
+                  />
+                </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">KC Firestone Events</h3>
+                <div>
+                  <p class="mb-4">
+                    The goal of this project was to provide a brand refresh for the 
+                    user interface. The three target areas I chose to upgrade were the 
+                    responsive website <b>desktop</b> view, the responsive website <b>mobile</b> view, 
+                    and a <b>Native iOS</b> app. I completed an audit of the previous site where 
+                    I pin-pointed the heuristics and identified the changes that needed 
+                    to be made. Next, I selected featured components that would bring 
+                    value to the user. By hitting these targets I was able to bring a 
+                    minimal and classy design straight to the user.
+                  </p>
+                </div>
+                <!--<a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="#!"
+                >
+                  Project write-up
+                </a>-->
+                <!--<a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a>-->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <div
+                  data-tilt
+                  data-tilt-max="4"
+                  data-tilt-glare="true"
+                  data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt"
+                >
+                <a href="KCFirestoneEvents.html">
+                  <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    loading="lazy"
+                    src="assets/DesktopWebsiteHomePage.png"
+                  />
+                </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Germany Travel Bureau</h3>
+                <div>
+                  <p class="mb-4">
+                    The goal of this project was to target new, existing and past visitors 
+                    to travel back to Germany. To do so the present brand design wasn’t 
+                    sharing any recognition or familiarity. To increase travel attraction 
+                    and <b>brand recognition</b> sometimes simplicity is best. By adding Bauhaus
+                    themes and iconic colors from their flag and national soccer teams, I
+                    crafted a consistent design that screams Germany without question.
+                  </p>
+                </div>
+                <!--<a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="#!"
+                >
+                  Project write-up
+                </a>-->
+                <!--<a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a>-->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <div
+                  data-tilt
+                  data-tilt-max="4"
+                  data-tilt-glare="true"
+                  data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt"
+                >
+                <a href="GermanyTravelBureau.html">
+                  <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    loading="lazy"
+                    src="assets/BrandGuide.png"
+                  />
+                </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+          <!--/END UI/UX Project Section-->
+
+          <div class="section-spacing"></div>
+          
+          <!--Power BI Project Section-->
+          <h2 class="section-title dark-blue-text">Power BI Projects</h2>
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">NavMD</h3>
+                <div>
+                  <p class="mb-4">
+                    Compiled data and developed a data visual analytics Dashboard for NavMD for their
+                    Market research with their existing and future clients based off self funded health plans.
+                  </p>
+                </div>
+                <!--<a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="#!"
+                >
+                  Project write-up
+                </a>-->
+                <!--<a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a>-->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <div
+                  data-tilt
+                  data-tilt-max="4"
+                  data-tilt-glare="true"
+                  data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt"
+                >
+                  <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    loading="lazy"
+                    src="assets/NavMD22.png"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Partnered with ConocoPhillips</h3>
+                <div>
+                  <p class="mb-4">
+                    Developed a data visual analytics Dashboard for their drill site inventory management.
+                    On my team I embedded this data visualization into the inventory management system.
+                  </p>
+                </div>
+                <!--<a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="#!"
+                >
+                  Project write-up
+                </a>-->
+                <!--<a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a>-->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <div
+                  data-tilt
+                  data-tilt-max="4"
+                  data-tilt-glare="true"
+                  data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt"
+                >
+                  <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    loading="lazy"
+                    src="assets/ConocoPhillipspartnerseniorproject.png"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Kompass Kapital </h3>
+                <div>
+                  <p class="mb-4">
+                    Developed a data visual analytics Dashboard for Moonshot’s parent company, Kompass Kapital’s. The focus was for their investment portfolio.
+                  </p>
+                </div>
+                <!--<a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="#!"
+                >
+                  Project write-up
+                </a>-->
+                <!--<a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a>-->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <div
+                  data-tilt
+                  data-tilt-max="4"
+                  data-tilt-glare="true"
+                  data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt"
+                >
+                  <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    loading="lazy"
+                    src="assets/KompassKapital.png"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+          <!--/END Power BI Project Section-->
+
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">Recruiters: please know I appreciate you! Due to volume I can only respond to job-related inquiries if you clearly state the name of the company and team you represent. Thank you!</p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:reese@reesefisher.com"
+            >Email Me</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <!--<a rel="noreferrer" href="#!" target="_blank">
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a>-->
+          <a rel="noreferrer" href="https://www.linkedin.com/in/reese-fisher-ba6a73108/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/reese-fisher/" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <p class="footer__text">
+          © 2021 - Made by Reese Fisher and
+          <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
+            >Jacobo Martínez</a
+          >
+        </p>
+
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
 </html>
